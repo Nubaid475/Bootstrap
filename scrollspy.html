@@ -3,91 +3,59 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Horizontal Scrollspy Bootstrap</title>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-    <nav class="navber navbar-inverse navbar-fixed-top">
-
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
-
             <div class="navbar-header">
-
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar">
                     <span class="icon-bar"></span>
-
                     <span class="icon-bar"></span>
-
                     <span class="icon-bar"></span>
-
                 </button>
-
                 <a class="navbar-brand" href="#">Home</a>
             </div>
-
-            <div>
-
-                <div class="collapse navbar-collapse" id="myNavbar">
-
-                    <ul class="nav navbar-nav">
-
-                        <li class="active"><a href="#section1">Section 1</a></li>
-
-                        <li><a href="#">Section 2</a></li>
-
-                        <li><a href="#">Section 3</a></li>
-
-                        <li><a href="#">Section 4</a></li>
-
-                        <li><a href="#">Section 5</a></li>
-                </div>
-
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#section1">Section 1</a></li>
+                    <li><a href="#section2">Section 2</a></li>
+                    <li><a href="#section3">Section 3</a></li>
+                    <li><a href="#section4">Section 4</a></li>
+                    <li><a href="#section5">Section 5</a></li>
+                </ul>
             </div>
-
         </div>
-
     </nav>
+
     <div id="section1" class="container-fluid">
-
         <h1>Section 1</h1>
-        
         <h3>Codingal</h3>
-
         <h5>
-            Codingal is on a mission to inspire school kids to fall in love with coding. Coding is proven to develop creativity,
-            logical thinking and problem solving skills in kids. Coding is an essential skill of the future and more than 60% of all
-            jobs in STEM-related fields require knowledge of code. Kids who start learning to code at a young age are guaranteed to
+            Codingal is on a mission to inspire school kids to fall in love with coding. Coding is proven to develop
+            creativity,
+            logical thinking and problem solving skills in kids. Coding is an essential skill of the future and more
+            than 60% of all
+            jobs in STEM-related fields require knowledge of code. Kids who start learning to code at a young age are
+            guaranteed to
             become leaders, creators and entrepreneurs of the future.
         </h5>
-
         <p>Scroll this section</p>
-
     </div>
 
     <div id="section2" class="container-fluid">
-
         <h1>Section 2</h1>
-
         <h3>Codingal</h3>
-
         <h5>
             Codingal is on a mission to inspire school kids
         </h5>
-
         <p>Scroll this section</p>
-
     </div>
-
 
 </body>
 
